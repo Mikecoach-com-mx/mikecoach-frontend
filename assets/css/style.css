@@ -185,6 +185,9 @@ h6 {
   text-align: center;
   pointer-events: none; }
 
+.center{
+  text-align: center;
+}
 /*-------------------- RX Lazy Load Script ------------------------*/
 .rx-lazy_item {
   opacity: 1;
