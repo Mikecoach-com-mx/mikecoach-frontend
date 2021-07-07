@@ -2119,7 +2119,7 @@ blockquote:before {
 
 /*-------------------- S-CLUB-CARDS --------------------*/
 
-.s-club-cards-padding{padding: 50px 0 100px;}
+.s-club-cards-padding{padding: 50px 0 40px;}
 .s-club-cards {
   padding: 128px 0 180px; }
   .s-club-cards.club-cards-fitness {
@@ -2512,7 +2512,8 @@ blockquote:before {
 
 /*------------------ S-ABOUT-BOTTOM ------------------*/
 .s-about-bottom {
-  padding-top: 23px; }
+  padding-bottom: 80px;
+}
 
 .about-bottom-item {
   display: flex;
@@ -4139,8 +4140,8 @@ blockquote:before {
   .about-row {
     align-items: flex-start; }
 
-  .s-about-bottom {
-    padding-top: 88px; }
+    .s-about-bottom {
+      padding-bottom: 88px; }
 
   .about-bottom-info {
     font-size: 13px;
