@@ -3104,6 +3104,12 @@ blockquote:before {
     line-height: .75;
 }
 
+.club-card-item .price-cover .promo {
+    font-size: 60px;
+    padding-right: 6px;
+    line-height: .75;
+}
+
 .club-card-item .price-cover .date {
     font-size: 18px;
     padding-left: 2px;
