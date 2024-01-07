@@ -3080,6 +3080,52 @@ blockquote:before {
     margin-top: 0;
 }
 
+.price-cover {
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Righteous", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 22px;
+    margin-bottom: 22px;
+}
+
+.price-cover:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45px;
+    height: 4px;
+    background-color: #f23849;
+}
+
+.price-cover .price {
+    font-size: 72px;
+    padding-right: 6px;
+    line-height: .75;
+}
+
+.price-cover .promo {
+    font-size: 60px;
+    padding-right: 6px;
+    line-height: .75;
+}
+
+.price-cover .date {
+    font-size: 18px;
+    padding-left: 2px;
+}
+
+.price-cover .date span {
+    margin-left: -2px;
+    color: #fcbd56;
+    display: block;
+    line-height: .9;
+    font-size: 36px;
+}
+
 .club-card-item .price-cover {
     display: flex;
     justify-content: flex-start;
