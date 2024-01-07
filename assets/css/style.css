@@ -3047,6 +3047,10 @@ blockquote:before {
     color: #f23849
 }
 
+.ctm-plans .club-card-item::before{
+    border: none;
+}
+
 .club-card-item {
     display: flex;
     flex-direction: column;
