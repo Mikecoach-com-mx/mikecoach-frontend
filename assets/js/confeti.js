@@ -1,10 +1,10 @@
 var scalar = 2;
-var unicorn = confetti.shapeFromText({ text: '💘', scalar });
+var unicorn = confetti.shapeFromText({ text: '💕', scalar });
 
 var defaults = {
   spread: 360,
-  ticks: 60,
-  gravity: 0,
+  ticks: 180, //time
+  gravity: 0.3,
   decay: 0.96,
   startVelocity: 20,
   shapes: [unicorn],
