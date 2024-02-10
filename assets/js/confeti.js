@@ -3,8 +3,8 @@ var unicorn = confetti.shapeFromText({ text: '💕', scalar });
 
 var defaults = {
   spread: 360,
-  ticks: 180, //time
-  gravity: 0.3,
+  ticks: 300, //time
+  gravity: 0.2,
   decay: 0.96,
   startVelocity: 20,
   shapes: [unicorn],
@@ -32,7 +32,7 @@ function shoot() {
 }
 
 $(window).on( 'load', function(){
+    setTimeout(shoot, 1300);
     setTimeout(shoot, 1500);
     setTimeout(shoot, 1700);
-    setTimeout(shoot, 1900);
 });
